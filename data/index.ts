@@ -101,16 +101,21 @@ export const projects = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/insta.svg",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/git.svg",
     },
     {
       id: 3,
+      img: "/twit.svg",
+    },
+    {
+      id: 4,
       img: "/link.svg",
     },
+
   ];
 
   export const pricing = [
@@ -139,8 +144,8 @@ export const projects = [
 
   export const pricingOptions = [
     {
-      title: "Free",
-      price: "$0",
+      title: "Basic Starter Pack",
+      price: "R3000",
       features: [
         "Private board sharing",
         "5 Gb Storage",
@@ -149,8 +154,8 @@ export const projects = [
       ],
     },
     {
-      title: "Pro",
-      price: "$10",
+      title: "Pro Business Pack",
+      price: "R5000",
       features: [
         "Private board sharing",
         "10 Gb Storage",
@@ -159,8 +164,8 @@ export const projects = [
       ],
     },
     {
-      title: "Enterprise",
-      price: "$200",
+      title: "Ecommerce Site Pack",
+      price: "R7000",
       features: [
         "Private board sharing",
         "Unlimited Storage",

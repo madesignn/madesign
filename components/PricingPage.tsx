@@ -6,8 +6,8 @@ import MagicButton from "./ui/MagicButton";
 const PricingPage = () => {
   return (
     <div className="mt-20">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
-        Pricing
+      <h2 className="heading text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide " id="pricing">
+        <span className="text-purple">Price</span> List
       </h2>
       <div className="flex flex-wrap">
        
@@ -25,7 +25,6 @@ const PricingPage = () => {
               </p>
               <p className="mb-8">
                 <span className="text-5xl mt-6 mr-2">{option.price}</span>
-                <span className="text-neutral-400 tracking-tight">/Month</span>
               </p>
               <ul>
                 {option.features.map((feature, index) => (
