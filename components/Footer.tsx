@@ -13,7 +13,7 @@ const Footer = () => {
         />
       </div>
       <div className="flex flex-col items-center">
-      <h1 className="heading lg:max-w-[45vw]">Ready to take your <span className="text-purple">Digital Presence</span> 
+      <h1 className="heading lg:max-w-[45vw]">Ready to take your <br/><span className="text-purple">Digital Presence</span> 
       <br/> to the next level?
       </h1>
       

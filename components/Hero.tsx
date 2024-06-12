@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36" id="about">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -29,14 +29,14 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative z-10" id="about">
+      <div className="flex justify-center relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
           Dynamic Web Design With MADESIGN
           </p>
 
           <TextGenerateEffect
-            words="Transforming ideas Into Seamless User Experiences"
+            words="Transforming Ideas Into Seamless User Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
