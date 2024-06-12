@@ -1,10 +1,10 @@
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import {BackgroundGradientDemo}  from "@/components/ui/BackgroundGradientDemo";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data/index";
+import PricingPage from "@/components/PricingPage";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero /> 
       <RecentProjects />
       <Clients />
-      <BackgroundGradientDemo />
+      <PricingPage />
       <Footer />
       </div>
     </main>
