@@ -1,39 +1,53 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Pricing", link: "#pricing" },
-    { name: "Contact", link: "#contact" },
+    { name: "Home", link: "#home" },
+    { name: "Our Services", link: "#our services" },
+    { name: "About Us", link: "#about us" },
+    { name: "Our Projects", link:"#our projects"},
+    { name: "Contact Us", link: "#contact us" },
   ];
 
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Free Scoping Session",
+      desc: "Receive a Free Consultation from our experienced experts to thoroughly analyze and evaluate your specific business needs.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Planning",
+      desc: "When it comes to planning for a website design, our approach is meticulous and tailored to your specific needs.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Web Development",
+      desc: "Coding, designing, and implementing functionality to create functional and user-friendly online platforms.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Revisions",
+      desc: "Throughout the design process, we send you revisions to ensure we stay aligned with your vision and that you are happy with the outcome.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
+    },
+    {
+      id: 5,
+      title: "Testing",
+      desc: "Testing after developing a website ensures functionality, usability, and compatibility across different devices, browsers, ensuring a seamless experience.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+    },
+    {
+      id: 6,
+      title: "Launch",
+      desc: "We launch a website after development to make it publicly accessible, marking the transition from development to live operation.",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
     },
   ];
 
@@ -129,80 +143,73 @@ export const projects = [
       },
   ];
 
-  export const socialMedia = [
-    {
-      id: 1,
-      img: "/insta.svg",
-    },
-    {
-      id: 2,
-      img: "/git.svg",
-    },
-    {
-      id: 3,
-      img: "/twit.svg",
-    },
-    {
-      id: 4,
-      img: "/link.svg",
-    },
-
-  ];
-
-  export const pricing = [
-    {
-      id: 1,
-      title: "Basic Starter Pack",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/BasicStarter.png",
-      price: "R3000",
-    },
-    {
-      id: 2,
-      title: "Pro Business Pack",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/BasicStarter.png",
-      price: "R5000",
-    },
-    {
-      id: 3,
-      title: "Eco Site Pack",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/BasicStarter.png",
-      price: "R8000",
-    },
-  ];
-
   export const pricingOptions = [
     {
-      title: "Basic Starter Pack",
+      title: "Starter Site",
       price: "R3000",
       features: [
-        "Private board sharing",
-        "5 Gb Storage",
-        "Web Analytics",
-        "Private Mode",
+        "Responsive: Desktop, Mobile, Tablet", 
+        "1-Pager: Focussed and easy navigation",
+        "Custom Color Scheme: For your brand",
+        "Team & Partner Section: Build Trust",
+        "Interactive Buttons: For user experience",
+        "Contact Form: To get leads.",
+        "Integrated Google Map: To build trust",
+        "HD Banners: Visually engaging images",
+        "Instant Support: Whatsapp Chat Widget​",
+        "Seamless Social Integration​",
       ],
     },
     {
-      title: "Pro Business Pack",
+      title: "Business Site",
       price: "R5000",
       features: [
-        "Private board sharing",
-        "10 Gb Storage",
-        "Web Analytics (Advance)",
-        "Private Mode",
+        "Responsive: Desktop, Mobile, Tablet",
+        "5-Pager: Extensive content",
+        "Landing Page Optimisation",
+        "Sliders & CTA's: Lead visitors to action",
+        "Team & Partner Section: Build Trust",
+        "Custom Header & Footer: Be Unique",
+        "Testimonial Section: Build more trust",
+        "Security Software: Keep your site safe",
+        "Instant Support: Whatsapp Chat Widget​",
+        "Seamless Social Integration​",
       ],
     },
     {
-      title: "Ecommerce Site Pack",
+      title: "Ecommerce Site",
       price: "R7000",
       features: [
-        "Private board sharing",
-        "Unlimited Storage",
-        "High Performance Network",
-        "Private Mode",
+        "Responsive: Desktop, Mobile, Tablet",
+        "8-Page Web Design: In-depth content",
+        "Strategic & Landing Page Designs",
+        "Sliders & CTA's: Lead visitors to action",
+        "Team & Partner Section: Build Trust",
+        "Custom Header & Footer: Be Unique",
+        "Testimonial Section: Build more trust",
+        "Security Software: Keep your site safe",
+        "Instant Support: Whatsapp Chat Widget​",
+        "Seamless Social Integration",
       ],
     },
   ];
+
+    export const socialMedia = [
+      {
+        id: 1,
+        img: "/insta.svg",
+      },
+      {
+        id: 2,
+        img: "/git.svg",
+      },
+      {
+        id: 3,
+        img: "/twit.svg",
+      },
+      {
+        id: 4,
+        img: "/link.svg",
+      },
+    ];
   
