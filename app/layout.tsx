@@ -5,6 +5,8 @@ import { ThemeProvider } from "./themeProvider";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,8 +30,14 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Navigation />
-            {children}
+            <main className="relative flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
+            <div className="max-w-7xl w-full">
+              <Navigation />
+              {children}
+              <Footer />
+            </div>
+            </main>
+            
             <Analytics/>
             <SpeedInsights />
 

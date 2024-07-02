@@ -1,9 +1,9 @@
 export const navItems = [
-    { name: "Home", link: "#home" },
-    { name: "Our Services", link: "#our services" },
-    { name: "About Us", link: "#about us" },
-    { name: "Our Projects", link:"#our projects"},
-    { name: "Contact Us", link: "#contact us" },
+    { name: "Home", link: "/Home" },
+    { name: "Our Services", link:"/Services"},
+    { name: "About Us", link: "/About" },
+    { name: "Our Projects", link:"/Projects"},
+    { name: "Contact Us", link: "/Contact" },
   ];
 
   export const workExperience = [

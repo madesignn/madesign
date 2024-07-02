@@ -1,9 +1,10 @@
+"use client"
 import { CheckCircle2 } from "lucide-react";
 import { pricingOptions } from "@/data/index";
 import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 
-const PricingPage = () => {
+export default function PricingPage() {
   return (
     <div className="mt-20">
       <h1 className="heading text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide " id="pricing">
@@ -50,5 +51,3 @@ const PricingPage = () => {
     </div>
   );
 };
-
-export default PricingPage;
