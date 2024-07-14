@@ -1,5 +1,7 @@
-import SectionTitle from "../Common/SectionTitle";
-import SingleFaq from "./SingleFaq";
+import SectionTitle from "../ui/SectionTitle";
+import React from "react";
+import Accordion from '../ui/Accordion'
+import { faqs } from "@/data";
 
 const Faq = () => {
   return (
@@ -12,39 +14,19 @@ const Faq = () => {
           width="640px"
           center
         />
-
-        <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
-          <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question="What services does MA Design offer?"
-              answer="We offer a range of digital design services to bring your brand and ideas to life. This includes web development, app design, SEO (Search Engine Optimization) engineering, logo design, and ad design."
-            />
-            <SingleFaq
-              question="Do you develop websites for mobile devices?"
-              answer="Absolutely! All our websites are responsive, meaning they adapt seamlessly to any screen size, including desktops, tablets, and smartphones."
-            />
-            <SingleFaq
-              question="I have a great app idea, can you help me develop it?"
-              answer="Yes! Our app design team can take your concept from ideation to a fully functional app. We'll guide you through the entire process, ensuring your app is user-friendly and stands out in the market."
-            />
+  <div className="-mx-4 mt-[60px] lg:mt-20">
+  <div className="w-full px-4 lg:w-full">
+             
+          <div className="divide-y divide-slate-200">
+            {faqs.map((faq, index) => (
+              <Accordion key={index} title={faq.title} id={`faqs-${index}`} active={faq.active}>
+                {faq.text}
+                </Accordion>
+            ))}
           </div>
-
-          <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question="What is SEO and how can it benefit my business?"
-              answer="SEO is the process of optimizing your website to rank higher in search engine results pages (SERPs). This increases organic traffic to your website, bringing in potential customers who are actively searching for products or services like yours."
-            />
-            <SingleFaq
-              question="How much does your design work cost?"
-              answer="The cost of our services runs on a fixed once-off pricing plan. We offer free consultations to discuss your project goals and discuss what kind of pricing plan your future website would fall under."
-            />
-            <SingleFaq
-              question="What is your design process like?"
-              answer="We believe in close collaboration with our clients throughout the design process. We'll start by getting to know your brand, target audience, and project goals. Then, we'll present you with design concepts and work iteratively with you to refine them until you're satisfied with the final product."
-            />
-          </div>
-        </div>
-      </div>
+  </div>
+  </div>
+  </div>
 
       <div>
         <span className="absolute left-4 top-4 -z-[1]">

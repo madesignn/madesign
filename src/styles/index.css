@@ -25,13 +25,6 @@ body {
 .sticky-menu #navbarCollapse li .ud-menu-scroll.active {
   @apply text-primary opacity-100 dark:text-white;
 }
-.sticky-menu .loginBtn {
-  @apply text-dark hover:text-primary hover:opacity-100 dark:text-white;
-}
-
-.sticky-menu .signUpBtn {
-  @apply bg-primary hover:bg-dark text-white hover:text-white;
-}
 
 .navbarTogglerActive > span:nth-child(1) {
   @apply top-[7px] rotate-45 transform;
@@ -42,5 +35,4 @@ body {
 .navbarTogglerActive > span:nth-child(3) {
   @apply top-[-8px] rotate-[135deg];
 }
-
 }

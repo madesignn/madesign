@@ -1,5 +1,5 @@
 import About from "@/src/components/About";
-import Breadcrumb from "@/src/components/Common/Breadcrumb";
+import Breadcrumb from "@/src/components/ui/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

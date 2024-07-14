@@ -1,4 +1,4 @@
-import SectionTitle from "../Common/SectionTitle";
+import SectionTitle from "../ui/SectionTitle";
 import { testimonialData } from '@/data/index'
 import SingleTestimonial from "./SingleTestimonial";
 import { clientsData } from "../Clients/clientsData";

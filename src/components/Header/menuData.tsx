@@ -9,14 +9,34 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "About",
-    path: "/about",
+    title: "Services",
     newTab: false,
+    submenu: [
+      {
+        id: 61,
+        title: "Website Design",
+        path: "/pricingweb",
+        newTab: false,
+      },
+      {
+        id: 62,
+        title: "E-commerce",
+        path: "/pricingecom",
+        newTab: false,
+      },
+      {
+        id: 63,
+        title: "Logo & Ad Design",
+        path: "/pricinglogoad",
+        newTab: false,
+      },
+      
+    ],
   },
   {
     id: 3,
-    title: "Pricing",
-    path: "/pricing",
+    title: "About",
+    path: "/about",
     newTab: false,
   },
   {
@@ -31,31 +51,6 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
-  {
-    id: 6,
-    title: "Services",
-    newTab: false,
-    submenu: [
-      {
-        id: 61,
-        title: "About Page",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 62,
-        title: "Pricing Page",
-        path: "/pricing",
-        newTab: false,
-      },
-      {
-        id: 63,
-        title: "Contact Page",
-        path: "/contact",
-        newTab: false,
-      },
-      
-    ],
-  },
+  
 ];
 export default menuData;

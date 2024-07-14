@@ -1,4 +1,4 @@
-import Breadcrumb from "@/src/components/Common/Breadcrumb";
+import Breadcrumb from "@/src/components/ui/Breadcrumb";
 import Testimonials from "@/src/components/Testimonials";
 import { Metadata } from "next";
 

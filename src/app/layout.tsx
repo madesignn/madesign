@@ -2,12 +2,12 @@
 
 import Footer from "@/src/components/Footer";
 import Header from "@/src/components/Header";
-import ScrollToTop from "@/src/components/ScrollToTop";
+import ScrollToTop from "@/src/components/ui/ScrollToTop";
 import { ThemeProvider } from "next-themes";
 import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import { useEffect, useState } from "react";
-import PreLoader from "@/src/components/Common/PreLoader";
+import PreLoader from "@/src/components/ui/PreLoader";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 

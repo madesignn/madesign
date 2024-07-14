@@ -4,11 +4,8 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <section
-        id="home"
-        className="relative overflow-hidden bg-dark pt-[120px] md:pt-[130px] lg:pt-[160px]"
-      >
-        <div className="container">
+    <section className="relative overflow-hidden bg-dark pt-[120px] md:pt-[130px] lg:pt-[160px]">
+        <div id="home" className="conatiner">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
               <div
@@ -1341,7 +1338,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section>
+        </section>
+
     </>
   );
 };

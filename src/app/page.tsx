@@ -1,10 +1,10 @@
 import About from "@/src/components/About";
 import CallToAction from "@/src/components/CallToAction";
 import Clients from "@/src/components/Clients";
-import ScrollUp from "@/src/components/Common/ScrollUp";
+import ScrollUp from "@/src/components/ui/ScrollUp";
 import Contact from "@/src/components/Contact";
 import Faq from "@/src/components/Faq";
-import Features from "@/src/components/Features";
+import Services from "@/src/components/Services";
 import Hero from "@/src/components/Hero";
 import Testimonials from "@/src/components/Testimonials";
 import { Metadata } from "next";
@@ -21,7 +21,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <About />
-      <Features />
+      <Services />
       <CallToAction />
       <Testimonials />
       <Faq />
